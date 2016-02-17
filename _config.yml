@@ -1,28 +1,40 @@
-name: Frank Bardon
 favicon: null
-layout_spectrum: 0.98104
-typography_spectrum: 0.39022
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Frank Bardon
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.375
+  brandStrength: 0.9021277
+  lightness: 0.8125
   brandColors:
     - '#dddddd'
     - '#7b8d99'
     - '#303847'
     - '#bc8c20'
     - '#e39a9d'
-  brandStrength: 0.125
-  lightness: 0.8125
-  saturation: 0.375
   rhythmicContrast: 0.25
-purpose: []
+typography_spectrum: 0.39022
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.98104
+analytics:
+  twitter: null
+  google: null
+  facebook: null
